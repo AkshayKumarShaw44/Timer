@@ -1,6 +1,6 @@
-import React, { useState, useRef, useCallback } from 'react'
+import React, { useState, useRef } from 'react'
 
-function StopWatch({fontcolor, accent}) {
+function StopWatch() {
     const [time, setTime] =  useState(0)
     let timeRef = useRef(null)
 

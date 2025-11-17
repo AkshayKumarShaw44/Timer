@@ -11,7 +11,7 @@ function App() {
     
  <div className={`h-screen w-screen flex flex-col flex-wrap justify-center items-center ${color}`}>
   <div className="flex-1 flex justify-center items-center w-full ">
-      <StopWatch fontcolor={fontcolor} accent={accent} color={color}/>
+      <StopWatch />
   </div>
   <div >
       <div className="backdrop-blur-md bg-white/40 border border-white/30 mb-15 rounded-3xl flex flex-wrap gap-4 p-3">
