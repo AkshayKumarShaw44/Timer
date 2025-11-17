@@ -3,7 +3,6 @@ import StopWatch from './components/StopWatch'
 
 
 function App() {
-  const [count, setCount] = useState(0)
   const [color, setColor] = useState("bg-amber-600")
   const [fontcolor, setfontcolor] = useState("text-amber-600")
   const [accent, setaccent] = useState("accent-amber-600")
